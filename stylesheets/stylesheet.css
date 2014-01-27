@@ -61,7 +61,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
+  color:#FFFFFF;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
@@ -72,12 +72,12 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 10px;
   font-size: 32px;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
+  color:#FFFFFF;
   font-size: 24px;
 }
 
@@ -273,11 +273,9 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:0;
-  right: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
-  color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  color: #00FFFF;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -285,16 +283,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
-}
+  background: #29A3CC;
+} 
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  
 }
 
 #project_title {
@@ -353,9 +347,9 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
+  background: #FFFFFF;
+  border-top: 1px solid #2EB8E6;
+  border-bottom: 1px solid #2EB8E6;
 }
 
 #main_content {
@@ -363,7 +357,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #29A3CC;
 }
 
 
@@ -420,4 +414,6 @@ Small Device Styles
     font-size: 11px;
   }
 
+
+}
 }
